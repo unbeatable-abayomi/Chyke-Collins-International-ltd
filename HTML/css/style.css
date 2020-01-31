@@ -340,7 +340,7 @@ body {
 .main-nav li > a:hover, .main-nav li > a:focus{
     color:#6c6c6c;
     background: transparent;
-    border-top:1px solid #fdc312;
+    border-top:1px solid brown;
 }
 
 /*---------------------------
@@ -378,7 +378,7 @@ Dropdown menu style
 }
 .main-nav .dropdown-menu{
     min-width:250px;
-    background: #fdc312;
+    background: brown;
     border-radius: 0;
     left: -20px !important;
     display:block;
