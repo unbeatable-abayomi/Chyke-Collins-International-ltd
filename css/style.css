@@ -713,7 +713,7 @@ offcanvas-menu
 .service-item::before{
   content: " ";
   position: absolute;
-  width:100%;
+  width:83%;
   height: 100%;
   left:0;
   top:0;
@@ -730,9 +730,11 @@ offcanvas-menu
 }
 .service-description{
   position: absolute;
-  left:0;
+  right:5rem;
   bottom: 0;
-  padding: 0 2.8em 2.8em;;
+  padding: 0 2.8em 2.8em;
+  /* width:83%; */
+  
 }
 .service-description h3{
     color: #ffffff;
