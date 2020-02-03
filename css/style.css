@@ -461,6 +461,13 @@ input.empty {
   color: ffffff !important;  
 }
 
+/* styles for the doors page Each Door */
+.all_doors{
+  -webkit-filter: contrast(130%);
+  filter: contrast(130%);
+}
+
+
 
 /* Extra small devices (phones, less than 768px) */
 @media (max-width : 767px) {
@@ -730,10 +737,9 @@ offcanvas-menu
 }
 .service-description{
   position: absolute;
-  right:5rem;
+  right:6rem;
   bottom: 0;
   padding: 0 2.8em 2.8em;
-  /* width:83%; */
   
 }
 .service-description h3{
