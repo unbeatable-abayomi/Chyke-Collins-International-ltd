@@ -768,6 +768,9 @@ offcanvas-menu
 .service-item:hover .service-description h3{
     border-left: 5px solid #ffffff;
 }
+.section_text{
+  text-transform: none;
+}
 
 @media(max-width: 767px){
   .service-section li:first-child {
