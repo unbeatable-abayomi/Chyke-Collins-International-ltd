@@ -292,11 +292,42 @@ body {
 }
 .social a:hover{
   /* color:#fdc312; */
-  color: #654321;;
+  color: #654321;
 }
 .header-top p{
   margin:0;
 }
+
+/* this is new media query for the welcome-section {starts here} */
+
+@media(max-width: 4540px){
+  #about-us-mobile{
+    display: none;
+  }
+}
+
+@media(max-width: 1024px){
+  #about-us-mobile{
+    display: none;
+  }
+}
+
+@media(max-width: 768px){
+  #about-us-mobile{
+    display: none;
+  }
+  
+}
+@media(max-width:425px){
+  #about-us-mobile{
+    display: block;
+  }
+}
+@media(max-width: 425px){
+  #about-us-large{display: none;}
+}
+
+/* this is new media query for the welcome-section {ends here} */
 
 /*----------------------------
  Navigation  bar Style
@@ -471,6 +502,15 @@ input.empty {
   margin-top: 1rem;
 
 }
+.all_pipes{
+    -webkit-filter: contrast(75%);
+    filter: contrast(75%);
+  border-radius: 5px;
+
+}
+.man-with-door{
+  border-radius: 7px;
+}
 .all_doors{
   -webkit-filter: contrast(130%);
   filter: contrast(130%);
@@ -582,6 +622,7 @@ offcanvas-menu
     float: left;
     margin:15px 0 15px 15px;
   }
+ 
 
 /*----------------------------------------------
   Banner-section
@@ -781,6 +822,8 @@ offcanvas-menu
   text-transform: none;
 }
 
+
+
 @media(max-width: 767px){
   .service-section li:first-child {
     margin-right: 0;
@@ -873,8 +916,8 @@ offcanvas-menu
   Section-quote style
 ---------------------------------------------*/
 .quote-section{
-  background: url(../img/quote-bg.jpg)no-repeat scroll center 0;
-  height:400px;
+  background: url(../img/pipeNew.jpg)no-repeat scroll center 0;
+  height:350px;
 }
 .quote{
   padding: 7em 20em;
