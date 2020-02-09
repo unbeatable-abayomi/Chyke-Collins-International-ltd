@@ -462,6 +462,15 @@ input.empty {
 }
 
 /* styles for the doors page Each Door */
+.all_pipes{
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 1rem;
+
+}
 .all_doors{
   -webkit-filter: contrast(130%);
   filter: contrast(130%);
@@ -724,7 +733,7 @@ offcanvas-menu
   height: 100%;
   left:0;
   top:0;
-  background: #654321;
+  /* background: #654321; */
   opacity: 0;
   -webkit-transition : all 0.3s ease 0s;
   -moz-transition    : all 0.3s ease 0s;
