@@ -292,11 +292,42 @@ body {
 }
 .social a:hover{
   /* color:#fdc312; */
-  color: #654321;;
+  color: #654321;
 }
 .header-top p{
   margin:0;
 }
+
+/* this is new media query for the welcome-section {starts here} */
+
+@media(max-width: 4540px){
+  #about-us-mobile{
+    display: none;
+  }
+}
+
+@media(max-width: 1024px){
+  #about-us-mobile{
+    display: none;
+  }
+}
+
+@media(max-width: 768px){
+  #about-us-mobile{
+    display: none;
+  }
+  
+}
+@media(max-width:425px){
+  #about-us-mobile{
+    display: block;
+  }
+}
+@media(max-width: 425px){
+  #about-us-large{display: none;}
+}
+
+/* this is new media query for the welcome-section {ends here} */
 
 /*----------------------------
  Navigation  bar Style
@@ -462,6 +493,24 @@ input.empty {
 }
 
 /* styles for the doors page Each Door */
+.all_pipes{
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 1rem;
+
+}
+.all_pipes{
+    -webkit-filter: contrast(75%);
+    filter: contrast(75%);
+  border-radius: 5px;
+
+}
+.man-with-door{
+  border-radius: 7px;
+}
 .all_doors{
   -webkit-filter: contrast(130%);
   filter: contrast(130%);
@@ -573,6 +622,7 @@ offcanvas-menu
     float: left;
     margin:15px 0 15px 15px;
   }
+ 
 
 /*----------------------------------------------
   Banner-section
@@ -724,7 +774,7 @@ offcanvas-menu
   height: 100%;
   left:0;
   top:0;
-  background: #654321;
+  /* background: #654321; */
   opacity: 0;
   -webkit-transition : all 0.3s ease 0s;
   -moz-transition    : all 0.3s ease 0s;
@@ -771,6 +821,8 @@ offcanvas-menu
 .section_text{
   text-transform: none;
 }
+
+
 
 @media(max-width: 767px){
   .service-section li:first-child {
@@ -864,8 +916,8 @@ offcanvas-menu
   Section-quote style
 ---------------------------------------------*/
 .quote-section{
-  background: url(../img/quote-bg.jpg)no-repeat scroll center 0;
-  height:400px;
+  background: url(../img/pipeNew.jpg)no-repeat scroll center 0;
+  height:350px;
 }
 .quote{
   padding: 7em 20em;
