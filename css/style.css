@@ -270,7 +270,24 @@ body {
   width: 100px;
   height: 80px;
 }
-
+#serving_our_clients{
+  color: #654321;
+}
+/* colors abayomi added to text */
+.responsability,
+#responsability_text,
+.list-group,
+.footer-logo,
+.contact-us,
+.doors_section_text,
+.history_resources_text,
+.who_we_serve_text,
+#our_services_text,
+.service_does_matter_text,
+.location_map_text,
+.pipes_section_text{
+  color: #654321;
+}
 .header-connection{
   text-align: right;
   line-height: 1.5em;
@@ -915,10 +932,10 @@ offcanvas-menu
 /*------------------------------------------------
   Section-quote style
 ---------------------------------------------*/
-.quote-section{
+/* .quote-section{
   background: url(../img/pipeNew.jpg)no-repeat scroll center 0;
   height:350px;
-}
+} */
 .quote{
   padding: 7em 20em;
   text-align: center; 
@@ -999,7 +1016,7 @@ color:#dddddd;
   position:relative;
 }
 .responsability ul li::before{
-  content: "\f105" ;
+  /* content: "\f105" ; */
   font-family: fontAwesome;
   position: absolute;
   left:0;
