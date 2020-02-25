@@ -272,6 +272,10 @@ body {
   margin-top: -2rem;
   margin-left: -2.2rem;
 }
+.new_clients{
+  border-radius:60% 60% 60% 60%;
+  /* margin-top: -.1rem; */
+}
 #serving_our_clients{
   color: #654321;
 }
